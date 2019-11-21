@@ -34,7 +34,10 @@ height: 20px;
 }
 input:checked + span  {
         text-decoration-line: line-through;}
-.list1:checked {text-decoration-line: line-through;}
+
+        li:nth-child(2n) {background-color: #625e77;
+
+}
 
 input[type="checkbox"] {
     height: auto;
